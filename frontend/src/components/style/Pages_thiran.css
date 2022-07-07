@@ -1,0 +1,886 @@
+/* ==========================Mainly for Supplier Registration========================== */
+.row {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+text{
+  font-size: 22px;
+  font-family:cursive;
+}
+
+.text_input{
+  border-radius:"5px";
+  height:"40px";
+}
+
+
+* { box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.container_body {
+  padding-top: 80px;
+  padding-bottom: 10px;
+  display: flex;
+  height: 100vh;
+  border: 1px black;
+  margin-left: 50px;
+}
+
+/* form that is on the left side of the screen */
+.left {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  margin-left: 140px;
+  border-radius: 10px;
+  background-color: rgb(253, 243, 243);
+  box-shadow: 0 6px 12px 0 rgb(255, 146, 146);
+  transition: 0.3s;
+}
+/* .left :hover{
+  box-shadow: 0 8px 16px 0 rgba(255, 155, 155, 0.377);
+} */
+/* form that is on the left side of the screen */
+/* image that is on the right side of the screen */
+.right_suppReg {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url("Supplier\ Registration.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+/* image that is on the right side of the screen */
+
+
+.header > h2 {
+  font-size: 27px;
+  margin: 0;
+  color: #4f46a5;
+}
+
+.header > h4 {
+  margin-top: 10px;
+  font-weight:normal;
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+
+
+/* Styles for form(including buttons & input fields) */
+.form {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(59, 59, 59, 0.377);
+  transition: 0.3s; */
+}
+
+.form > p {
+  text-align: right;
+}
+
+.form > p > a {
+  color: #000;
+  font-size: 14px;
+}
+
+.form-field {
+  height: 46px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  outline: 0;
+  transition: 0s;
+  margin-bottom: 1px;
+  border-radius: 8px;
+}
+
+.form-field:focus {
+  border-color: #4f46a5;
+}
+
+
+/* ===========form button=========== */
+.form > button {
+  padding: 12px 10px;
+  border: 0;
+  background:rgb(240, 122, 142);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Rubik', sans-serif;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  
+  border-radius: 20px;
+}
+
+.form > button:hover{
+    background: #913fc7;
+    color: #f0e111;
+}
+
+.form > button:active {
+  transform: translateY(10px);
+}
+
+.form > button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0.8s;
+}
+/* ===========form button=========== */
+/* Styles for form(including buttons & input fields) */
+
+
+
+/* ===========animations=========== */
+.animation {
+  animation-name: move;
+  animation-duration: .4s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+.a1 {
+  animation-delay: 2s;
+}
+
+.a2 {
+  animation-delay: 2.1s;
+}
+
+.a3 {
+  animation-delay: 2.2s;
+}
+
+.a4 {
+  animation-delay: 2.3s;
+}
+
+.a5 {
+  animation-delay: 2.4s;
+}
+
+.a6 {
+  animation-delay: 2.5s;
+}
+/* ===========animations=========== */
+
+
+/* ===========movement at reload=========== */
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    padding: 20px 40px;
+    width: 440px;
+  }
+}
+/* ===========movement at page reload=========== */
+
+
+/* Parent div tag for Gender input*/
+.registerSuppDiv1{
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+  font-size: 20px;
+}
+/* Parent div tag for Gender input*/
+/* Child div tag for Gender input*/
+.registerSuppDiv2{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+/* Child div tag for Gender input*/
+
+
+.radio{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.registerSuppDiv2 input[type="radio"]{
+  display:block;
+}
+
+label{
+  font-family: 'Rubik', sans-serif;
+  color: rgb(161, 160, 160);
+  margin-right: 4px;
+}
+
+/* ==========================Mainly for Supplier Registration========================== */
+
+
+/* ==========================Mainly for Supplied Item Registration========================== */
+/* image that is on the right side of the screen */
+.right_suppItemReg {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url("Supplied\ Item\ Registration.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+/* image that is on the right side of the screen */
+/* ==========================Mainly for Supplied Item Registration========================== */
+
+/* ==========================Mainly for Supply Registration========================== */
+.right_supplyReg {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url("Supply\ Registration.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+/* ==========================Mainly for Supply Registration========================== */
+
+
+/* ==========================Mainly for Supplied Item Updation========================== */
+/* image that is on the right side of the screen */
+.right_suppItemUpdt {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url("Supplied\ Item\ Registration.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+/* image that is on the right side of the screen */
+/* ==========================Mainly for Supplied Item Registration========================== */
+
+
+/* ====================================================Mainly for Home==================================================== */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+.ul_homeThiranBody { display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; }
+.ul_homeThiran { position: relative; }
+.ul_homeThiran li { list-style: none; text-align: center; }
+.ul_homeThiran li a { color: #333; text-decoration: none; font-size: 3em; padding: 5px 20px; display: inline-flex; font-weight: 700; transition: 0.5s; }
+.ul_homeThiran:hover li a { color: #0002; }
+.ul_homeThiran li:hover a { color: #000; background: rgba(255,255,255,1); }
+
+
+.ul_homeThiran li a:before { content: ''; position: absolute; top: 50%; left: 40%; transform: translate(-50%,-50%); display: flex; justify-content: center; align-items: center; font-size: 5em; color: rgba(0,0,0,.1); border-radius: 50%; z-index: -1; opacity: 0; font-weight: 900; text-transform: uppercase; letter-spacing: 500px; transition: letter-spacing 0.5s,left 0.5s; }
+.ul_homeThiran li a:hover:before { content: attr(data-text); opacity: 1; left: 50%; letter-spacing: 10px; width: 1800px; height: 1800px; }
+.ul_homeThiran li:nth-child(6n+1) a:before { background: #81ecec; }
+.ul_homeThiran li:nth-child(6n+2) a:before { background: #ff7675; }
+.ul_homeThiran li:nth-child(6n+3) a:before { background: #55efc4; }
+.ul_homeThiran li:nth-child(6n+4) a:before { background: #a29bfe; }
+.ul_homeThiran li:nth-child(6n+5) a:before { background: #fd79a8; }
+.ul_homeThiran li:nth-child(6n+6) a:before { background: #ffeaa7; } */
+
+/* ====================================================Mainly for Home==================================================== */
+.thiran_parallax1{
+  height: 80vh;
+  width: 100%;
+  background-image: url(../style/Supplied\ Item\ Registration.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.thiran_parallax2{
+  background: rgb(145, 255, 187);
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background:#f162d2;
+}
+
+.thiran_parallax3{
+  background: rgb(248, 163, 198);
+  height: 100vh;
+  width: 100%;
+  background-image: url(../style/external-content.duckduckgo.com.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.thiran_parallax4{
+  background: steelblue;
+  width: 100%;
+}
+
+.loaderThiran{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+
+.loaderThiran:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 10px solid #f162d2;
+  border-color: rgb(167, 74, 204) transparent;
+  animation: dual-ring-thiran 2s linear infinite;
+}
+
+@keyframes dual-ring-thiran {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ================= STYLES FOR TABLE THAT SHOWS ALL DETAILS ================= */
+.tableContainerThiran {
+  margin-left: 80px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #000;
+}
+.responsive-table .table-header {
+ 
+  background-color: #ffcac5;
+  color: #362223;
+
+  font-size: 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  height: 90px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.responsive-table .table-row {
+  font-size: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.responsive-table .table-row:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.responsive-table .col-1 {
+  flex-basis: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.responsive-table .col-2 {
+  flex-basis: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-3 {
+  flex-basis: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-4 {
+  flex-basis:15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-5 {
+  flex-basis:15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-6  {
+  flex-basis: 14%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-7  {
+  flex-basis: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.responsive-table .col-8 {
+  flex-basis: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.responsive-table .col-9 {
+  flex-basis: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ulThiran{
+  color: #000;
+  font-size: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ulThiran:hover{
+  color: rgb(46, 45, 45);
+}
+
+.liThiran{
+  color: #000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.liThiran:hover{
+  color: rgb(46, 45, 45);
+}
+
+.updateButtonThiran{
+  background-color: rgb(66, 149, 218);
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 5px;
+}
+.deleteButtonThiran{
+  background-color: rgb(218, 66, 104);
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+/* ================= STYLES FOR TABLE THAT SHOWS ALL DETAILS ================= */
+
+
+
+.search_Thiran{
+  margin-top: 3px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.searchBox_Thiran {
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 83%;
+  margin-bottom: 5px;
+  max-width: 175px;
+  border-radius: 5px;
+  color: grey;
+  background-color: white;
+}
+
+.searchBox_Thiran:hover{
+  border-color: rgb(136, 42, 165);
+  background-color: rgb(248, 248, 248);
+}
+.searchBox_Thiran:focus{
+  background-color: white;
+  font-weight: normal;
+}
+
+/* BACK TO TOP BUTTON */
+.toTheTop{
+  width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #5de6de;
+	background-image: linear-gradient(315deg, #e65dc8 0%, #b58ecc 74%);
+	border: none;
+	border-radius: 50%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* For the supplier homepage */
+.supplier_home_body {
+  background: #f2f2f2;
+}
+
+.supplier_home_container  {
+  position: absolute;
+  left: 30%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.supplier_home_content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.supplier_home_h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.supplier_home_h3 {
+  font-weight: 300;
+}
+
+.supplier_home_flap {
+  width: 100%;
+  height: 100%;
+}
+
+.supplier_home_flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+/*   background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white; */
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresources.sansan.com%2Fhubfs%2FImported_Blog_Media%2FBusiness-Suppliers.jpg&f=1&nofb=1;w=1100");
+  background-position: -241px;
+  background-repeat: no-repeat;
+  transition: 3s;
+}
+
+.supplier_home_flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+/*   background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white; */
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fresources.sansan.com%2Fhubfs%2FImported_Blog_Media%2FBusiness-Suppliers.jpg&f=1&nofb=1;w=1100");
+  background-position: -543px;
+  background-repeat: no-repeat;
+  transition: 3s;
+}
+
+.supplier_home_container:hover .supplier_home_flap::after {
+  transform: translatex(300px);
+}
+
+.supplier_home_container:hover .supplier_home_flap::before{
+  transform: translatex(-300px);
+}
+
+/* BUTTONS */
+.a1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.supplier_button_body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supplier_button{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+
+.supplier_button:hover{
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+  } 
+
+ .f1{
+  position: relative;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #d9d4e7;
+  width: 200px;
+  height: 65px;
+  background-color: #d9d4e7;
+  animation-duration: 5s;
+}
+
+.supplier_button-os{
+   position: absolute;
+    width: 200px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f9f8fc;
+    border: 2.5px solid #0e172c;
+    transition: background-color 2.2s;
+    transition-duration: 3s;
+    transition: 1.5s;
+  }
+  
+  .supplier_button-os:hover{
+    position: absolute;
+    top: 30px;
+    background-color: #fec7d7;
+  }
+  
+  .supplier_button-os a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color:#0e172c;
+    transition: 1.5s;
+  }
+  
+  .supplier_button-os a:hover{
+    letter-spacing: 5px;
+  }
+
+
+  /* For the supplied item homepage */
+.suppliedItem_home_body {
+  background: #f2f2f2;
+}
+
+.suppliedItem_home_container  {
+  position: absolute;
+  left: 75%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.suppliedItem_home_content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.suppliedItem_home_h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.suppliedItem_home_h3 {
+  font-weight: 300;
+}
+
+.suppliedItem_home_flap {
+  width: 100%;
+  height: 100%;
+}
+
+.suppliedItem_home_flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 51.8%;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F19034214%2Fr%2Fil%2F41aec0%2F2003485236%2Fil_794xN.2003485236_65o7.jpg&f=1&nofb=1");
+  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.thehungryjpeg.com%2Fthumbs2%2Fori_3783592_w10gc4zuwp2yk3b9psi7224dqqdpldqh0p76kwlr_watercolor-baking-clipart.jpg&f=1&nofb=1"); */
+  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.vectorstock.com%2Fi%2F1000x1000%2F66%2F42%2Fcake-shop-set-of-decorated-cakes-confectionery-vector-12696642.jpg&f=1&nofb=1"); */
+  background-position: -241px;
+  background-repeat: no-repeat;
+  transition: 3s;
+}
+
+.suppliedItem_home_flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+/*   background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white; */
+
+/* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.vectorstock.com%2Fi%2F1000x1000%2F66%2F42%2Fcake-shop-set-of-decorated-cakes-confectionery-vector-12696642.jpg&f=1&nofb=1"); */
+background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.etsystatic.com%2F19034214%2Fr%2Fil%2F41aec0%2F2003485236%2Fil_794xN.2003485236_65o7.jpg&f=1&nofb=1;");
+  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.thehungryjpeg.com%2Fthumbs2%2Fori_3783592_w10gc4zuwp2yk3b9psi7224dqqdpldqh0p76kwlr_watercolor-baking-clipart.jpg&f=1&nofb=1"); */
+  background-position: -543px;
+  background-repeat: no-repeat;
+  transition: 3s;
+}
+
+.suppliedItem_home_container:hover .suppliedItem_home_flap::after {
+  transform: translatex(300px);
+}
+
+.suppliedItem_home_container:hover .suppliedItem_home_flap::before{
+  transform: translatex(-300px);
+}
+
+/* BUTTONS */
+.a1 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.suppliedItem_button_body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suppliedItem_button{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(207, 207, 207);
+}
+
+.suppliedItem_button:hover{
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+  } 
+
+ .f1{
+  position: relative;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #d9d4e7;
+  width: 200px;
+  height: 65px;
+  background-color: #d9d4e7;
+  animation-duration: 5s;
+}
+
+.suppliedItem_button-os{
+   position: absolute;
+    width: 200px;
+    height: 65px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f9f8fc;
+    border: 2.5px solid #0e172c;
+    transition: background-color 2.2s;
+    transition-duration: 3s;
+    transition: 1.5s;
+  }
+  
+  .suppliedItem_button-os:hover{
+    position: absolute;
+    top: 30px;
+    background-color: #fec7d7;
+  }
+  
+  .suppliedItem_button-os a{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color:#0e172c;
+    transition: 1.5s;
+  }
+  
+  .suppliedItem_button-os a:hover{
+    letter-spacing: 5px;
+  }

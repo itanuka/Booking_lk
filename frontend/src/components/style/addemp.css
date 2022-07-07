@@ -1,0 +1,168 @@
+/*.empform {
+    margin-top:10px;
+    margin-left: 500px;
+
+}*/
+
+.selectRTK{
+  width: 300px;
+  height: 25px;
+}
+
+.myRegister-rtk{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../style/addback2.jpg");
+  box-shadow: 7px 7px 60px rgb(14, 30, 126);
+  background-size: cover;
+  background-position: center center;
+  margin-top: 80px;
+  margin-bottom: -300px;
+}
+
+.myupdate-rtk{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("../style/updateback.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+  margin-bottom: -110px;
+}
+
+.body_rtk{
+  font-family: "Open Sans";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-style: oblique;
+ 
+}
+
+  .container_1rtk{
+    margin-top:80px ;
+    margin-left: 350px;
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    padding: 25px 30px;
+    border-radius: 5pxrgb(204, 201, 201);
+    box-shadow: 7px 7px 60px #000;
+    background: url("../style/photo-1563729784474-d77dbb933a9e.jpg");
+    background-size: cover;
+   
+  }
+
+  .container_1rtk .title-rtk{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .container_1rtk .title-rtk::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+  .container_1rtk form .user-details-rtk{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;  
+   
+    
+  }
+  .user-details-rtk .input-box-rtk label{
+    color:#000;
+  }
+
+  .user-details-rtk .input-box-rtk{
+    margin-bottom: 15px;
+     width: calc(100% / 2 - 20px);
+  }
+
+.input-box-rtk input.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .user-details-rtk .input-box-rtk input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .user-details-rtk .input-box-rtk input:focus,
+  .user-details-rtk .input-box-rtk input:valid{
+  border-color: #9b59b6;
+}
+
+form .button-rtk{
+    height: 45px;
+    margin: 35px 0
+  }
+  form .button-rtk input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+
+  form .button-rtk input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+
+    @media(max-width: 584px){
+        .container{
+         max-width: 100%;
+       }
+
+       form .user-details-rtk .input-box-rtk{
+           margin-bottom: 15px;
+           width: 100%;
+         }  
+         form .category{
+            width: 100%;
+          }
+          .content_rtk form .user-details-rtk{
+            max-height: 300px;
+            overflow-y: scroll;
+          }
+          .user-details-rtk::-webkit-scrollbar{
+            width: 5px;
+          }
+          }
+          @media(max-width: 459px){
+          .container_1rtk .content_rtk .category{
+            flex-direction: column;
+          }
+        }
+
+     .gender1 {
+        font-size: 18px;
+     } 
+
+        
+
+

@@ -1,0 +1,9 @@
+.custom-bottem {
+    align-items: center;
+    text-align: center;
+}
+.custom-avator{
+    object-fit: cover;
+    width: 52px;
+    height: 60px;
+}

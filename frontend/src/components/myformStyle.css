@@ -1,0 +1,50 @@
+.myformstyle{
+    border-style: solid;
+
+  border-color: black;
+
+  border-width: 5px;
+
+  box-shadow: 0 8px 350px 0 rgba(0, 0, 0, 0.5);
+
+  align-content: center;
+
+  margin-right: 0px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formcontainer5554555{
+  width:50%;
+  height:auto;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  background:url('./style/payment1.jpg');
+    background-size: cover;
+  background-position: center center;
+}
+.formcontainer5575554555{
+  width:50%;
+  height:auto;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  background:url('./style/aneta-voborilova-4Cuz3ls1BCI-unsplash.jpg');
+    background-size: cover;
+  background-position: center center;
+}
+
+.h3544{
+  color: #fff;
+}
+.h35757744{
+  color: rgb(198, 236, 227);
+}
+
+

@@ -1,0 +1,25 @@
+.custom-profile-image{
+    width: 200px;
+    height: 200px;
+    
+}
+.left-side-info{
+    background: rgb(80, 173, 173);
+    height: 485px;
+}
+.right-side-info{
+    background:lightpink;
+    height: 485px;
+}
+.custom-btn{
+    width: 151px;
+}
+
+.hero-section{
+    height: 100px;
+}
+
+.info-section{
+  min-height: 500px;
+}
+

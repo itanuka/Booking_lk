@@ -1,0 +1,285 @@
+.sopCon{
+  box-shadow: 0 4px 8px 0 rgba(59, 59, 59, 0.377);
+  transition: 0.3s;
+  width: 70%;
+  border-radius:25px;
+  padding: 25px;
+  overflow: hidden;
+  margin-top: -10em;
+  margin-left: 5em;
+  background-color: #F7B1AB;
+}
+
+.sopCon:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 155, 155, 0.377);
+}
+
+.oidn{
+  
+   font-size: 50px;
+   text-align: center;
+}
+
+.oidnum{
+  
+  font-size: 35px;
+  text-align: center;
+}
+
+.hr001{
+
+  border-top: 2px solid rgb(255, 147, 147);
+}
+.hr002{
+  border-top: 2px solid rgb(255, 147, 147);
+}
+
+
+
+.tamnt{
+  font-size: 25px;
+}
+
+.tableCol0001{
+  width: 200px;
+  padding-left: auto;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+.red{
+
+color: red;
+font-weight: bold;
+text-align: left;
+}
+
+.green{
+color: green;
+font-weight: bold;
+text-align: left;
+}
+
+.orange{
+color:orange;
+font-weight: bold;
+text-align: left;
+}
+
+
+.tableCol0002{
+  width: 200px;
+  padding-left: 60px;
+  text-align: left;
+
+}
+
+.tableCol0003{
+  width: 500px;
+  padding-left: 20px;
+  text-align: center;
+
+}
+
+.tableCol0004{
+  padding-left: 10px;
+  width: 500px;
+  text-align: center;
+
+}
+
+.itemsTopic{
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.tableCol0008{
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background-color: rgb(255, 169, 169);
+
+}
+
+.tableCol0009{
+  width: 250px;
+  height: 40px;
+  text-align: left;
+
+
+}
+
+/**************************************************************/
+.stUpCont{
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 3em;
+  margin-top: -6em;
+  width: 300px;
+
+  
+}
+
+select[name="PS"] {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  appearance:none;
+  outline:0;
+  box-shadow:none;
+  border:0!important;
+  background: pink;
+  background-image: none;
+  flex: 1;
+  height:45px;
+  width:170px;
+  text-align:center;
+  padding: 0 .5em;
+  color:black;
+  cursor:pointer;
+  font-size: 1em;
+  border-radius:20px;
+  font-family: 'Open Sans', sans-serif;
+}
+select[name="PS"]:hover{
+  background-color: rgb(255, 169, 169);
+  transition: 0.4s;
+}
+
+select[name="OS"] {
+-webkit-appearance:none;
+-moz-appearance:none;
+-ms-appearance:none;
+appearance:none;
+outline:0;
+box-shadow:none;
+border:0!important;
+background: pink;
+background-image: none;
+flex: 1;
+height:45px;
+width:170px;
+text-align:center;
+padding: 0 .5em;
+color:black;
+cursor:pointer;
+font-size: 1em;
+border-radius:20px;
+font-family: 'Open Sans', sans-serif;
+}
+select[name="OS"]:hover{
+background-color: rgb(255, 169, 169);
+transition: 0.4s;
+}
+
+select[name="DS"] {
+-webkit-appearance:none;
+-moz-appearance:none;
+-ms-appearance:none;
+appearance:none;
+outline:0;
+box-shadow:none;
+border:0!important;
+background: pink;
+background-image: none;
+flex: 1;
+height:45px;
+width:170px;
+text-align:center;
+padding: 0 .5em;
+color:black;
+cursor:pointer;
+font-size: 1em;
+border-radius:20px;
+font-family: 'Open Sans', sans-serif;
+}
+select[name="DS"]:hover{
+background-color: rgb(255, 169, 169);
+transition: 0.4s;
+}
+/**************************************************************/
+
+.sbmtbutton {
+  display: inline-block;
+  border-radius: 30px;
+  background-color:  rgb(255, 169, 169);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;   
+  height: 50px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sbmtbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.sbmtbutton:hover {
+  background-color:  #362223;
+}
+
+
+.sbmtbutton span:after {
+  background-color:  #362223;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sbmtbutton:hover span {
+  padding-right: 25px;
+  background-color:  #362223;
+}
+
+.sbmtbutton:hover span:after {
+  background-color:  #362223;
+  opacity: 1;
+  right: 0;
+}
+
+.ststxt{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.btnfoot2199{
+  position: relative;
+  size: 20px;
+  font-weight: bold;
+  color: #F7B1AB;
+  background: #362223;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+
+}
+
+.btnfoot2199:hover{
+  size: 25px;
+  font-weight: bold;
+  background: #362223;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(255, 120, 120, 0.2);
+}

@@ -1,0 +1,17 @@
+.color {
+    background-color: black;
+}
+
+.text-color {
+    color: aliceblue;
+}
+
+.btn-width {
+    width: 100%;
+
+}
+
+.custome-icon {
+    font-size: 28px;
+    margin-right: 35px;
+}

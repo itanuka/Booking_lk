@@ -1,0 +1,515 @@
+.movieCardDiv {
+  margin-bottom: 50%;
+  height: auto;
+}
+
+
+.totPriceCont {
+  position: relative;
+  z-index: 150;
+  padding-top: -15em;
+  margin-left: 1em;
+
+}
+
+.btncont8426 {
+  position: relative;
+  text-align: center;
+  z-index: 150;
+  margin-top: -2em;
+}
+
+.btnac4444 {
+  float: right;
+  margin-top: -0.2%;
+  margin-right: -3em;
+  position: relative;
+  size: 20px;
+  font-weight: bold;
+  color: #F7B1AB;
+  background: #362223;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  width: 200px;
+  border-radius: 20px 0px 0px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btnac244444 {
+  float: left;
+  margin-left: -3em;
+  margin-top: -0.2%;
+  position: relative;
+  size: 20px;
+  font-weight: bold;
+  color: #F7B1AB;
+  background: #362223;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  width: 200px;
+  border-radius: 0px 20px 20px 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btnac4444:hover {
+  size: 25px;
+  font-weight: bold;
+  background: #362223;
+  color: white;
+  box-shadow: 5px 10px 5px #ff9187;
+}
+
+.btnac244444:hover {
+  background: #362223;
+  color: white;
+  box-shadow: 5px 10px 5px #ff9187;
+}
+
+.movie_card {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 200px;
+  margin-bottom: 500px;
+  overflow: hidden;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qtyBtnDiv {
+  margin-top: 1em;
+  position: relative;
+  margin-left: 0%;
+  width: 300px;
+}
+
+.value-button {
+  display: inline-block;
+  margin-top: -0.3em;
+  width: 45px;
+  height: 20px;
+  color: #ff9187;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  padding: 20px 10px;
+  background: #362223;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  background: #362223;
+  box-shadow: 5px 10px 5px #ff9187;
+}
+
+.btnac:hover {
+  size: 25px;
+  font-weight: bold;
+  background: #362223;
+  color: white;
+  box-shadow: 5px 10px 5px #ff9187;
+}
+
+.qtyBtnDiv #decrease {
+  margin-right: -4px;
+  margin-bottom: 3px;
+  border-radius: 63% 37% 38% 62% / 49% 49% 51% 51%;
+}
+
+.qtyBtnDiv #increase {
+  margin-left: -4px;
+  border-radius: 35% 65% 63% 37% / 49% 49% 51% 51%;
+  margin-bottom: 3px;
+}
+
+/* form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+*/
+input#number {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ca746c;
+  margin: 0px;
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  border-radius: 10px;
+}
+
+/*/
+////////////////////////star rate//////////////////////////////////////////////////
+/*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rate {
+  margin-left: 127px;
+  float: left;
+  height: 46px;
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
+
+.movieName {
+  color: #322827;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.Price {
+  color: #322827;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.totPrice-text {
+  margin-top: -60%;
+  margin-bottom: -3.5%;
+  margin-left: 47.5%;
+  position: relative;
+  z-index: 999;
+  color: #322827;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.totPrice {
+  margin-top: 1em;
+  margin-left: 45%;
+  position: relative;
+  z-index: 999;
+  color: #322827;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Price-text {
+  margin-top: -1em;
+  color: #322827;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.decription {
+  margin-top: 50px;
+  color: #2c2c2c;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.desContainer {
+  position: relative;
+  z-index: -10;
+  margin-bottom: -5em;
+  margin-top: -15em;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  width: 500px;
+  height: 440px;
+
+  text-align: center;
+}
+
+.movieImgContainer {
+  margin-bottom: -33%;
+  position: relative;
+  margin-left: 35%;
+  width: 500px;
+  height: 500px;
+}
+
+.movieImg {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.custopic {
+  margin-top: 30%;
+  color: #322827;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: 26%;
+
+}
+
+/*radio*/
+
+.radio-container {
+  color: #322827;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 5px;
+  width: 300px;
+}
+
+.radio-container2 {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  margin-right: -1em;
+  color: #322827;
+}
+
+.radio-container label {
+  color: #322827;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
+  width: 80px;
+}
+
+.radio-container input {
+  display: none;
+}
+
+.radio-container input:checked+label {
+  background: #F7B1AB;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.radio-container2 label {
+  color: #322827;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
+  width: 200px;
+}
+
+.radio-container2 input {
+  display: none;
+  width: 200px;
+}
+
+.radio-container2 input:checked+label {
+  background: #F7B1AB;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+
+/*-------------------------------------*/
+.radio3330 {
+  background: white;
+  padding: 4px;
+  border-radius: 8px;
+  position: relative;
+  width: 270px;
+  text-align: center;
+
+}
+
+.radio3330 input {
+  width: auto;
+  height: 100%;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px 8px;
+  color: #322827;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  transition: all 100ms linear;
+  font-weight: bold;
+
+}
+
+.radio3330 input:checked {
+  background: #F7B1AB;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ca746c;
+  width: 150px;
+}
+
+.radio3330 input:before {
+  content: attr(label);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+/*---------------*/
+.cusContainer {
+  padding: 50px;
+  margin-top: -35em;
+  margin-left: 72.5%;
+  width: 300px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.p2Size {
+
+  color: #322827;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  width: 300px;
+}
+
+/*--------------------------------*/
+.blobcont {
+  margin-left: 550px;
+  margin-top: -25em;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 1200px;
+  z-index: -99;
+}
+
+.blob {
+  width: 100%;
+  height: 100%;
+  background-color: #ffc7c2;
+  animation: spin 60s infinite linear;
+  border-radius: 45% 85% 66% 54%/51% 49% 52% 98%;
+  animation-duration: 60s;
+  border-radius: 60% 70% 64% 56%/65% 35% 43% 107%;
+  animation-duration: 60s;
+  border-radius: 44% 86% 53% 67%/45% 55% 59% 91%;
+  animation-duration: 60s;
+  border-radius: 45% 85% 43% 77%/59% 41% 57% 93%;
+  animation-duration: 60s;
+  border-radius: 55% 75% 41% 79%/59% 41% 67% 83%;
+  animation-duration: 60s;
+  border-radius: 57% 73% 47% 73%/55% 45% 67% 83%;
+  animation-duration: 60s;
+  border-radius: 50% 80% 56% 64%/47% 53% 47% 103%;
+  animation-duration: 60s;
+  border-radius: 53% 77% 67% 53%/49% 51% 54% 96%;
+  animation-duration: 60s;
+  border-radius: 45% 85% 69% 51%/47% 53% 49% 101%;
+  animation-duration: 60s;
+  border-radius: 46% 84% 66% 54%/42% 58% 65% 85%;
+  animation-duration: 60s;
+  border-radius: 68% 62% 49% 71%/58% 42% 44% 106%;
+  animation-duration: 60s;
+  border-radius: 49% 81% 55% 65%/66% 34% 49% 101%;
+  animation-duration: 60s;
+  border-radius: 62% 68% 44% 76%/49% 51% 50% 100%;
+  animation-duration: 60s;
+  border-radius: 42% 88% 70% 50%/59% 41% 66% 84%;
+  animation-duration: 60s;
+  border-radius: 52% 78% 64% 56%/62% 38% 63% 87%;
+  animation-duration: 60s;
+  border-radius: 65% 65% 49% 71%/65% 35% 57% 93%;
+  animation-duration: 60s;
+  border-radius: 51% 79% 43% 77%/55% 45% 48% 102%;
+  animation-duration: 60s;
+  border-radius: 50% 80% 64% 56%/49% 51% 68% 82%;
+  animation-duration: 60s;
+  border-radius: 67% 63% 46% 74%/53% 47% 68% 82%;
+  animation-duration: 60s;
+  border-radius: 50% 80% 44% 76%/41% 59% 47% 103%;
+  animation-duration: 60s;
+}
+
+@keyframes spin {
+  from {
+    background-color: #ffc7c2;
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.priceTableCont456 {
+  margin-bottom: -3em;
+  width: 300px;
+  text-align: center;
+  margin-left: 10%;
+}

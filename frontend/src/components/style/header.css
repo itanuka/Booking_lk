@@ -1,0 +1,61 @@
+.color {
+    background-color: black;
+}
+
+.text-color {
+    color: aliceblue;
+}
+
+.btn-width {
+    width: 100%;
+
+}
+
+.custome-icon {
+    font-size: 28px;
+
+    margin-right: 35px;
+}
+
+.custom-avator {
+    object-fit: cover;
+    width: 52px;
+    height: 60px;
+}
+
+.custom-profile-section {
+    width: 60px;
+    height: 70px;
+}
+
+.custome-margin {
+    margin-right: 90px;
+}
+
+/* Profile picture custom */
+
+.avatar {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 3rem;
+    width: 3rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.avatar-nav {
+    margin-right: 0.6rem;
+    height: 2.2rem;
+    width: 2.2rem;
+}

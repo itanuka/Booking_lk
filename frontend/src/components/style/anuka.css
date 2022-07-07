@@ -1,0 +1,188 @@
+
+
+.myForm{
+    width: 800px;
+    background:url('./payment1.jpg');
+    background-size: cover;
+  background-position: center center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.formLabel{
+    margin-left: 100px;
+    margin-top: 0px;
+    left: 1000px;
+    width: 500px;
+    color: #fefeff;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: center;
+}
+.container55555 .myForm .h1addad{
+  color:#fefeff
+}
+
+.formInput{
+    /* position: relative;
+    right: 10px;
+    top: 0px;
+    line-height: 40px;
+    width: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: 80%; */
+
+
+    background-color: #878ba8;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: fit-content;
+    margin-right: 50px;
+}
+
+.labelInput{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 45px;
+
+
+}
+
+
+.formInputTextArea{
+    /* position: relative;
+    right: 10px;
+    top: 0px;
+    line-height: 40px;
+    width: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: 80%; */
+
+
+    background-color: #8488ac;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 14px;
+    height: 110px;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+
+
+.buttonSumbit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer
+  }
+
+  .imageUpload{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .imageUpload .hghghhgf{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+
+  .formInputTheater{
+    /* position: relative;
+    right: 10px;
+    top: 0px;
+    line-height: 40px;
+    width: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    margin-left: 80%; */
+
+
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+.imageeka{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("abc.png");
+    background-size: cover;
+    background-position: center center;
+    /* me deka wena kra kra  herder eka heduwa ibe hri giya mn krddi wen  */
+    margin-top: 60px;
+    margin-bottom: -20px;
+    box-shadow: 7px 7px 60px #000;
+  }
+
+.containerMenu{
+    margin: 100px;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.allDetails{
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.buttonAddToCart {
+    background-color: #3312eb; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer
+  }
+
+  .containerList{
+    margin: 100px;
+    padding: 20px;
+  }
